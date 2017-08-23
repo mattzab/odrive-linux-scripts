@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Progress
+Quote=double
+Exec=gnome-terminal -e 'bash -c "python "/home/matt/.odrive-agent/bin/odrive.py" syncstate %F; bash"'
+Icon-Name=googlemusicframe
+Selection=notnone
+Extensions=dir;
+EscapeSpaces=false

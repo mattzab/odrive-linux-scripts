@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=RecursiveSync
+Quote=double
+Exec=python "/home/matt/.odrive-agent/bin/odrivecli.py" sync %F --recursive
+Icon-Name=googlemusicframe
+Selection=notnone
+Extensions=cloudf;dir;
+EscapeSpaces=false

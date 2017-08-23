@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Unsync
+Quote=double
+Exec=python "/home/matt/.odrive-agent/bin/odrive.py" unsync %F
+Icon-Name=googlemusicframe
+Selection=notnone
+Extensions=any;
+EscapeSpaces=false

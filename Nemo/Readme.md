@@ -9,5 +9,7 @@ OPEN IN TERMINAL
 Type this, and replace USER with your username:
 
 `sudo cp odrivecli.py /home/USER/.odrive-agent/bin`
+
 `cd nemo_action`
+
 `sudo cp * /usr/share/nemo/actions`

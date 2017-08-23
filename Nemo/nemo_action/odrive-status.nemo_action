@@ -2,7 +2,7 @@
 Active=true
 Name=Status
 Quote=double
-Exec=gnome-terminal -e 'bash -c "python "/home/matt/.odrive-agent/bin/odrive.py" status; bash"'
+Exec=gnome-terminal -e 'bash -c "python "/home/matt/.odrive-agent/bin/odrive.py" status && echo *****UPLOADS***** && echo  && python "/home/matt/.odrive-agent/bin/odrive.py" status --uploads && echo *****DOWNLOADS***** && echo  && python "/home/matt/.odrive-agent/bin/odrive.py" status --downloads; bash"'
 Icon-Name=googlemusicframe
 Selection=none
 Extensions=any;
